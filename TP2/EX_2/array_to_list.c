@@ -8,7 +8,7 @@ t_list array_to_list(int (*T)[], int n)
         return l;
     for (int i = 0; i < n; i++)
     {
-        add_node(&l, (*T)[i]);
+        add_node(l, (*T)[i]);
     }
     return l;
 }
