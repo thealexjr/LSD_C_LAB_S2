@@ -12,7 +12,7 @@ void flood_fill(char **c, t_point p, t_point d, char x)
         right.dim1 = p.dim1 + 1;
         right.dim2 = p.dim2;
         t_point down;
-        down.dim1 = p.dim1;
+        down.dim1 = p.dim1; 
         down.dim2 = p.dim2 - 1;
         t_point left;
         left.dim1 = p.dim1 - 1;
