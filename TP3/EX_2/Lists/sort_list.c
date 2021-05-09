@@ -11,7 +11,7 @@ void sort_list(list *L)
 {
     int swapped, i;
     list ptr1;
-    list lptr = NULL;
+    list lptr = NULL; 
 
     if (L == NULL)
         return;
