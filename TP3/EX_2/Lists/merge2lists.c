@@ -11,7 +11,7 @@ list merge_lists(list L1, list L2)
         temp = temp->next;
     }
     temp = L2;
-    while (temp != NULL)
+    while (temp != NULL) 
     { 
         addcell(temp->value, &L);
         temp = temp->next;
