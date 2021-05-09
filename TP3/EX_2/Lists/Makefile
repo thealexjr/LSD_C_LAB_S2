@@ -1,6 +1,6 @@
 SRC = main.c add_cell.c create2lists.c merge2lists.c print_list.c remove_duplicated.c sort_list.c 
 
-PRO_NAME = node_prog
+PRO_NAME = listsmm_prog
 
 all:
 	gcc $(SRC) -o $(PRO_NAME)
