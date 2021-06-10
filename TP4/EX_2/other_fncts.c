@@ -1,5 +1,14 @@
 #include "header.h"
 
+B_tree makeBtree(int x, B_tree T_1, B_tree T_2)
+{
+    B_tree T = (B_tree)malloc(sizeof(node));
+    T->value = x;
+    T->left = T_1;
+    T->right = T_2;
+    return T;
+}
+
 void getLeft(B_tree L, B_tree *T)
 {
     if (*T == NULL)
