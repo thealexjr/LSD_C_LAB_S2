@@ -1,7 +1,8 @@
 #include "header.h"
 
 
-int tree_size(B_tree T){
+int tree_size(B_tree T)
+{
     if (T==NULL)
         return 0;
     if (T->left==NULL && T->right==NULL)
